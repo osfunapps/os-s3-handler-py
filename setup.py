@@ -2,8 +2,8 @@ from distutils.core import setup
 
 setup(
     name='os_s3_handler',  # How you named your package folder (MyLib)
-    packages=['os_s3_handler'],  # Choose the same as "name"
-    version='1.00',  # Start with a small number and increase it with every change you make
+    packages=['os_s3_handler', 'os_s3_handler.bp'],  # Choose the same as "name"
+    version='1.01',  # Start with a small number and increase it with every change you make
     license='MIT',  # Chose a license from here: https://help.github.com/articles/licensing-a-repository
     description='This module meant to provide intuitive functions to work with AWS\'s S3',  # Give a short description about your library
     author='Oz Shabat',  # Type in your name
@@ -22,5 +22,6 @@ setup(
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
         'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.9',
     ],
 )

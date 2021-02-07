@@ -16,14 +16,14 @@ Install via pip:
 
 ## Usage
 Download file example:
-    
-    from os_s3_handler import s3_handler
+```python    
+from os_s3_handler import s3_handler
 
-    s3_handler.download_file(bucket_name='my_cool_bucket',
-                         rel_path_to_search='path/inside/backet',
-                         file_name='cool_img.png',
-                         dst_dir_path='/Users/home/path/to/dst/img')
-
+s3_handler.download_file(bucket_name='my_cool_bucket',
+                     rel_path_to_search='path/inside/backet',
+                     file_name='cool_img.png',
+                     dst_dir_path='/Users/home/path/to/dst/img')
+```
 
 And more...
 
